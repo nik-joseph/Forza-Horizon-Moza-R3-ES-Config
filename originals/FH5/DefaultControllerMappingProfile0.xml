@@ -1,0 +1,23 @@
+<Profiles>
+  <ControllerProfile Id="c5213f1a-ca1e-4f84-a5f4-477dacca1062" UserFacingName="DefaultControllerProfile" IsDefaultProfile="1" DeviceType="0" Version="2">
+    <Context Context="INPUTCONTEXT_RACING" Version="2">
+    </Context>
+    <Context Context="INPUTCONTEXT_UI" Version="2">
+    </Context>
+    <Context Context="INPUTCONTEXT_RACING_UI" Version="2">
+    </Context>
+    <Context Context="INPUTCONTEXT_COPTER" Version="2">
+    </Context>
+    <Context Context="INPUTCONTEXT_ANNA" Version="2">
+    </Context>
+    <Context Context="INPUTCONTEXT_PROP_PLACEMENT_UI" Version="2">
+    </Context>
+    <Context Context="INPUTCONTEXT_RACING_CAMERA_ONLY" Version="2">
+    </Context>
+    <Context Version="2" Context="INPUTCONTEXT_HIDE_SEEK">
+      <Value Key="INPUTCMD_HIDESEEK_PING_OR_CHASEBREAK">
+        <GamepadWheelInput Button="GamepadWheelInputYButton" ButtonHigh="GamepadWheelInputNone"/>
+      </Value>
+    </Context>
+  </ControllerProfile>
+</Profiles>

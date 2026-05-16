@@ -1,0 +1,89 @@
+<Profiles>
+<WheelProfile Version="3" Id="C075815C-6690-1564-65D1-1D35C0C66593" UserFacingName="IDS_DefaultWheelProfile_Moza_R3_Name" IsDefaultProfile="1" DeviceType="0" WheelVidPid="879624197">
+
+  <Layout Version="1">
+    <Input Button="12" Display="12" />
+    <Input Button="13" Display="13" />
+    <Input Button="21" Display="21" />
+    <Input Button="34" Display="34" />
+    <Input Button="35" Display="35" />
+    <Input Button="36" Display="36" />
+    <Input Button="37" Display="37" />
+    <Input Button="38" Display="38" />
+  </Layout>
+
+  <!-- ================= RACE ================= -->
+  <Context Version="3" Context="INPUTCONTEXT_RACING">
+
+    <!-- Pedals -->
+    <Mapping Command="INPUTCMD_GAS" Button="2" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_BRAKE" Button="5" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_CLUTCH" Button="6" ButtonHigh="-1" />
+
+    <!-- Steering -->
+    <Mapping Command="INPUTCMD_STEERING" Button="0" ButtonHigh="-1" />
+
+    <!-- Shifters -->
+    <Mapping Command="INPUTCMD_SHIFTUP" Button="13" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_SHIFTDOWN" Button="12" ButtonHigh="-1" />
+
+    <!-- Core controls -->
+    <Mapping Command="INPUTCMD_HANDBRAKE" Button="1" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_PAUSE_GAME" Button="37" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_SWITCH_CAMERA" Button="21" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_HORN" Button="0" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_ACTIVATE" Button="7" ButtonHigh="-1" />
+
+    <Mapping Command="INPUTCMD_MULLIGAN" Button="34" ButtonHigh="-1" />
+
+    <!-- Look controls (wheel buttons) -->
+    <Mapping Command="INPUTCMD_LOOK_LEFT" Button="19" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_LOOK_RIGHT" Button="20" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_LOOK_BACK" Button="18" ButtonHigh="-1" />
+
+  </Context>
+
+  <!-- ================= UI ================= -->
+  <Context Version="3" Context="INPUTCONTEXT_UI">
+
+    <!-- Confirm / Cancel -->
+    <Mapping Command="INPUTCMD_UI_OK_PRESS" Button="0" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_UI_CANCEL_PRESS" Button="1" ButtonHigh="-1" />
+
+    <!-- D-Pad -->
+    <Mapping Command="INPUTCMD_UI_DPAD_UP_PRESS" Button="8" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_UI_DPAD_DOWN_PRESS" Button="7" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_UI_DPAD_LEFT_PRESS" Button="6" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_UI_DPAD_RIGHT_PRESS" Button="5" ButtonHigh="-1" />
+
+    <!-- Menu -->
+    <Mapping Command="INPUTCMD_UI_START_PRESS" Button="37" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_UI_BACK_PRESS" Button="21" ButtonHigh="-1" />
+
+    <!-- Face buttons -->
+    <Mapping Command="INPUTCMD_UI_X_PRESS" Button="18" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_UI_Y_PRESS" Button="19" ButtonHigh="-1" />
+
+    <!-- Bumpers -->
+    <Mapping Command="INPUTCMD_UI_LBUMPER_PRESS" Button="12" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_UI_RBUMPER_PRESS" Button="13" ButtonHigh="-1" />
+
+    <!-- Map movement -->
+    <Mapping Command="INPUTCMD_UI_MAP_MOVE_LEFTRIGHT" Button="35" ButtonHigh="36" />
+    <Mapping Command="INPUTCMD_UI_MAP_MOVE_UPDOWN" Button="37" ButtonHigh="38" />
+
+  </Context>
+
+  <!-- ================= CAMERA ONLY ================= -->
+  <Context Version="3" Context="INPUTCONTEXT_RACING_CAMERA_ONLY">
+
+    <Mapping Command="INPUTCMD_PAUSE_GAME" Button="37" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_SWITCH_CAMERA" Button="21" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_HORN" Button="0" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_LOOK_BACK" Button="18" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_ACTIVATE" Button="7" ButtonHigh="-1" />
+
+  </Context>
+
+</WheelProfile>
+</Profiles>
