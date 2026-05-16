@@ -1,0 +1,248 @@
+<Profiles>
+<WheelProfile Version="3" Id="BDDE4549-DBE1-47BA-A16C-D9FDAEF79987" UserFacingName="IDS_DefaultWheelProfile_ThrustmasterT500RS_Name" IsDefaultProfile="1" DeviceType="0" WheelVidPid="72332894">
+
+  <!-- The layout only affects the visual representation of the buttons within the game -->
+  <!-- All inputs taken from the "Set up USB game controllers" app available on Windows 10 -->
+  <!-- Anything not mapped here will be treated as if it were a normal controller input -->
+  <Layout Version="1">
+    <Input Button="12" Display="15" />
+    <Input Button="13" Display="14" /> 
+    <Input Button="14" Display="13" /> 
+    <Input Button="15" Display="12" /> 
+    <Input Button="9" Display="5" /> 
+    <Input Button="8" Display="4" /> 
+    <Input Button="5" Display="38" /> 
+    <Input Button="4" Display="37" /> 
+    <Input Button="39" Display="40" /> 
+    <Input Button="37" Display="41" /> 
+    <Input Button="40" Display="39" /> 
+    <Input Button="38" Display="42" /> 
+  </Layout>
+
+  <!-- Race -->
+  <Context Version="3" Context="INPUTCONTEXT_RACING">
+    <!-- Pedals -->
+    <Mapping Command="INPUTCMD_GAS" Button="11" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_BRAKE" Button="10" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_CLUTCH" Button="26" ButtonHigh="-1" />
+    
+    <!-- Wheel -->
+    <Mapping Command="INPUTCMD_STEERING" Button="21" ButtonHigh="22" />
+    
+    <!-- Paddles -->
+    <Mapping Command="INPUTCMD_SHIFTUP" Button="9" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_SHIFTDOWN" Button="8" ButtonHigh="-1" />
+    
+    <!-- Buttons -->
+    <Mapping Command="INPUTCMD_PAUSE_GAME" Button="5" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_SWITCH_CAMERA" Button="4" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_MULLIGAN" Button="15" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_HANDBRAKE" Button="12" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_HORN" Button="39" ButtonHigh="-1" />
+    
+    <Mapping Command="INPUTCMD_LOOK_LEFT" Button="-1" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_LOOK_RIGHT" Button="-1" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_LOOK_BACK" Button="40" ButtonHigh="-1" />
+    
+    <Mapping Command="INPUTCMD_ACTIVATE" Button="14" ButtonHigh="-1" />
+  </Context>
+  
+  <Context Version="3" Context="INPUTCONTEXT_RACING_UI">
+    <!-- DPad -->
+    <Mapping Command="INPUTCMD_ANNA_ACTIVATE" Button="1" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_PHOTO_MODE_TOGGLE" Button="0" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_QUICKCHAT_ACTIVATE" Button="2" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_RADIO_RIGHT" Button="3" ButtonHigh="-1" />
+  </Context>
+  
+  <Context Version="3" Context="INPUTCONTEXT_ANNA">
+    <!-- DPad -->
+    <Mapping Command="INPUTCMD_ANNA_ITEM_1" Button="0" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_ANNA_ITEM_2" Button="2" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_ANNA_ITEM_3" Button="3" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_ANNA_ITEM_4" Button="1" ButtonHigh="-1" />
+  </Context>
+  
+  <!-- UI -->
+  <Context Version="3" Context="INPUTCONTEXT_UI">
+    <!-- Buttons -->
+    <Mapping Command="INPUTCMD_UI_OK_PRESS" Button="12" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_UI_OK_RELEASE" Button="12" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_UI_OK_REPEAT" Button="12" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_UI_OK_WHILEDOWN" Button="12" ButtonHigh="-1" />
+
+    <Mapping Command="INPUTCMD_UI_CANCEL_PRESS" Button="13" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_UI_CANCEL_RELEASE" Button="13" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_UI_CANCEL_REPEAT" Button="13" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_UI_CANCEL_WHILEDOWN" Button="13" ButtonHigh="-1" />
+
+    <Mapping Command="INPUTCMD_UI_START_PRESS" Button="5" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_UI_START_RELEASE" Button="5" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_UI_START_REPEAT" Button="5" ButtonHigh="-1" />
+
+    <Mapping Command="INPUTCMD_UI_BACK_PRESS" Button="4" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_UI_BACK_RELEASE" Button="4" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_UI_BACK_REPEAT" Button="4" ButtonHigh="-1" />
+    
+    <Mapping Command="INPUTCMD_UI_X_PRESS" Button="14" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_UI_X_RELEASE" Button="14" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_UI_X_REPEAT" Button="14" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_UI_X_WHILEDOWN" Button="14" ButtonHigh="-1" />
+
+    <Mapping Command="INPUTCMD_UI_Y_PRESS" Button="15" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_UI_Y_RELEASE" Button="15" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_UI_Y_REPEAT" Button="15" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_UI_Y_WHILEDOWN" Button="15" ButtonHigh="-1" />
+    
+    <Mapping Command="INPUTCMD_MULLIGAN" Button="15" ButtonHigh="-1" />
+    
+    <!-- DPad -->
+    <Mapping Command="INPUTCMD_UI_DPAD_UP_PRESS" Button="0" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_UI_DPAD_UP_RELEASE" Button="0" ButtonHigh="-1" />
+    
+    <Mapping Command="INPUTCMD_UI_DPAD_DOWN_PRESS" Button="1" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_UI_DPAD_DOWN_RELEASE" Button="1" ButtonHigh="-1" />
+    
+    <Mapping Command="INPUTCMD_UI_DPAD_LEFT_PRESS" Button="2" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_UI_DPAD_LEFT_RELEASE" Button="2" ButtonHigh="-1" />
+    
+    <Mapping Command="INPUTCMD_UI_DPAD_RIGHT_PRESS" Button="3" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_UI_DPAD_RIGHT_RELEASE" Button="3" ButtonHigh="-1" />
+    
+    <Mapping Command="INPUTCMD_UI_UP_PRESS" Button="0" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_UI_UP_RELEASE" Button="0" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_UI_UP_REPEAT" Button="0" ButtonHigh="-1" />
+
+    <Mapping Command="INPUTCMD_UI_DOWN_PRESS" Button="1" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_UI_DOWN_RELEASE" Button="1" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_UI_DOWN_REPEAT" Button="1" ButtonHigh="-1" />
+    
+    <Mapping Command="INPUTCMD_UI_LEFT_PRESS" Button="2" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_UI_LEFT_RELEASE" Button="2" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_UI_LEFT_REPEAT" Button="2" ButtonHigh="-1" />
+    
+    <Mapping Command="INPUTCMD_UI_RIGHT_PRESS" Button="3" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_UI_RIGHT_RELEASE" Button="3" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_UI_RIGHT_REPEAT" Button="3" ButtonHigh="-1" />
+
+    <Mapping Command="INPUTCMD_UI_MAP_MOVE_LEFTRIGHT" Button="31" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_UI_MAP_MOVE_UPDOWN" Button="32" ButtonHigh="-1" />
+
+    <Mapping Command="INPUTCMD_UI_BRICKCHALLENGES_UP" Button="0" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_UI_BRICKCHALLENGES_DOWN" Button="1" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_UI_BRICKCHALLENGES_LEFT" Button="2" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_UI_BRICKCHALLENGES_RIGHT" Button="3" ButtonHigh="-1" />
+
+    <!-- Pedals -->
+    <Mapping Command="INPUTCMD_UI_RTRIGGER_PRESS" Button="11" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_UI_RTRIGGER_RELEASE" Button="11" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_UI_RTRIGGER_REPEAT" Button="11" ButtonHigh="-1" />
+    
+    <Mapping Command="INPUTCMD_UI_LTRIGGER_PRESS" Button="10" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_UI_LTRIGGER_RELEASE" Button="10" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_UI_LTRIGGER_REPEAT" Button="10" ButtonHigh="-1" />
+    
+    <Mapping Command="INPUTCMD_UI_REPLAY_SPEED_LEFT" Button="10" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_UI_REPLAY_SPEED_RIGHT" Button="11" ButtonHigh="-1" />
+    
+    <!-- Paddles -->
+    <Mapping Command="INPUTCMD_UI_LBUMPER_PRESS" Button="8" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_UI_LBUMPER_RELEASE" Button="8" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_UI_LBUMPER_REPEAT" Button="8" ButtonHigh="-1" />
+    
+    <Mapping Command="INPUTCMD_UI_RBUMPER_PRESS" Button="9" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_UI_RBUMPER_RELEASE" Button="9" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_UI_RBUMPER_REPEAT" Button="9" ButtonHigh="-1" />
+  </Context>
+
+      <Context Version="3" Context="INPUTCONTEXT_HIDE_SEEK">
+        <Mapping Command="INPUTCMD_HIDESEEK_PING_OR_CHASEBREAK" Button="5" ButtonHigh="-1" />
+    </Context>
+
+
+<!-- Eliminator -->
+  <Context Version="3" Context="INPUTCONTEXT_ELIMINATOR_UI">
+    <Mapping Command="INPUTCMD_ELIMINATOR_UPGRADECHOICE_DOWN" Button="1" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_ELIMINATOR_UPGRADECHOICE_LEFT" Button="2" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_ELIMINATOR_UPGRADECHOICE_RIGHT" Button="3" ButtonHigh="-1" />
+  </Context>
+  
+  <!-- Prop Placement -->
+  <Context Version="3" Context="INPUTCONTEXT_PROP_PLACEMENT_UI">    
+    <Mapping Command="INPUTCMD_PP_CLONE_PROP" Button="15" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_PP_DELETE_PROP" Button="14" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_PP_DELETE_UGCPROP_IN_CAROUSEL" Button="14" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_PP_PLACE_EDIT_PROP" Button="12" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_PP_SAVE_AND_EXIT" Button="13" ButtonHigh="-1" />    
+    <Mapping Command="INPUTCMD_PP_TRANSFORM_LEFT" Button="2" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_PP_TRANSFORM_RIGHT" Button="3" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_PP_TRANSFORM_UP" Button="0" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_PP_TRANSFORM_DOWN" Button="1" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_PP_ROLL_LEFT" Button="10" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_PP_ROLL_RIGHT" Button="11" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_PP_RESET_TRANSFORM" Button="8" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_PP_PRECISION_MODE" Button="9" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_PP_OPEN_LIBRARY" Button="4" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_PP_OPEN_MOREOPTIONS" Button="5" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_PP_OPEN_PROPPREFAB_POPUP" Button="4" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_PP_OPEN_PROPPREFAB_SEARCHPOPUP" Button="5" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_PP_OPEN_SELECTIONMODE" Button="8" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_PP_OPEN_CREATIONMODE" Button="8" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_PP_SPHERE_SELECTION" Button="12" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_PP_ADD_TO_SELECTION" Button="12" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_PP_REMOVE_FROM_SELECTION" Button="14" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_PP_SAVE_SELECTED_PROPS" Button="15" ButtonHigh="-1" />
+  </Context>  
+  
+  <!-- Drone -->
+  <Context Version="3" Context="INPUTCONTEXT_COPTER">
+    <Mapping Command="INPUTCMD_COPTER_TURBO" Button="12" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_QUICKCHAT_ACTIVATE" Button="2" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_RADIO_RIGHT" Button="3" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_PHOTO_MODE_TOGGLE" Button="0" ButtonHigh="-1" />
+  </Context>
+  
+  <!-- Freecam -->
+  <Context Version="3" Context="INPUTCONTEXT_FREECAM">
+      <Mapping Command="INPUTCMD_MOVE_DOWN" Button="-1" ButtonHigh="-1" />
+      <Mapping Command="INPUTCMD_MOVE_UP" Button="-1" ButtonHigh="-1" />
+      
+      <Mapping Command="INPUTCMD_MOVE_FORWARDBACKWARD" Button="10" ButtonHigh="11" />
+      <Mapping Command="INPUTCMD_MOVE_LEFTRIGHT" Button="-1" ButtonHigh="-1" />
+      
+      <Mapping Command="INPUTCMD_ROT_LEFTRIGHT" Button="-1" ButtonHigh="-1" />
+      <Mapping Command="INPUTCMD_ROT_UPDOWN" Button="-1" ButtonHigh="-1" />
+      
+      <Mapping Command="INPUTCMD_FOV" Button="-1" ButtonHigh="-1" />
+      <Mapping Command="INPUTCMD_ROLL" Button="-1" ButtonHigh="-1" />
+  </Context>
+  
+  <!-- Old Freecam (Copied controls from Freecam) -->
+  <Context Version="3" Context="INPUTCONTEXT_OLD_FREECAM">
+      <Mapping Command="INPUTCMD_MOVE_DOWN" Button="-1" ButtonHigh="-1" />
+      <Mapping Command="INPUTCMD_MOVE_UP" Button="-1" ButtonHigh="-1" />
+      
+      <Mapping Command="INPUTCMD_MOVE_FORWARDBACKWARD" Button="10" ButtonHigh="11" />
+      <Mapping Command="INPUTCMD_MOVE_LEFTRIGHT" Button="-1" ButtonHigh="-1" />
+      
+      <Mapping Command="INPUTCMD_ROT_LEFTRIGHT" Button="-1" ButtonHigh="-1" />
+      <Mapping Command="INPUTCMD_ROT_UPDOWN" Button="-1" ButtonHigh="-1" />
+      
+      <Mapping Command="INPUTCMD_FOV" Button="-1" ButtonHigh="-1" />
+      <Mapping Command="INPUTCMD_ROLL" Button="-1" ButtonHigh="-1" />
+  </Context>
+
+  <!-- Convertible -->
+  <Context Version="3" Context="INPUTCONTEXT_RACING_CAMERA_ONLY">
+    <Mapping Command="INPUTCMD_PAUSE_GAME" Button="5" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_SWITCH_CAMERA" Button="4" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_HORN" Button="39" ButtonHigh="-1" />
+
+    <Mapping Command="INPUTCMD_LOOK_LEFT" Button="-1" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_LOOK_RIGHT" Button="-1" ButtonHigh="-1" />
+    <Mapping Command="INPUTCMD_LOOK_BACK" Button="40" ButtonHigh="-1" />
+
+    <Mapping Command="INPUTCMD_ACTIVATE" Button="14" ButtonHigh="-1" />
+  </Context>
+</WheelProfile>
+</Profiles>

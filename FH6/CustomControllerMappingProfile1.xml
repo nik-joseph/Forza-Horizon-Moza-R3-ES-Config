@@ -1,0 +1,5 @@
+<Profiles>
+  <ControllerProfile Version="3" Id="DD1490A2-1E85-44E5-ABA6-B5701DB85491" UserFacingName="IDS_CustomControllerProfile_1" IsDefaultProfile="0" WheelVidPid="0">
+    <Layout/>
+  </ControllerProfile>
+</Profiles>

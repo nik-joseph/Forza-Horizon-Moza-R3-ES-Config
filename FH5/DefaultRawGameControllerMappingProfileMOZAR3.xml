@@ -1,4 +1,3 @@
-
 <!-- 
     MOZARACING
 -->
@@ -142,16 +141,6 @@
     <!-- 回放加减速 -->
     <Value Version="1" Key="INPUTCMD_UI_REPLAY_SPEED_RIGHT" VidPid="0x346e0005" InputType="Axis" Index="2" InvertAxis="true" InnerDeadzone="0.0" OuterDeadzone="1.0" />
     <Value Version="1" Key="INPUTCMD_UI_REPLAY_SPEED_LEFT" VidPid="0x346e0005" InputType="Axis" Index="5" InvertAxis="true" InnerDeadzone="0.0" OuterDeadzone="1.0" />
-
-    <!-- UI Back (Button 20) -->
-    <Value Version="1" Key="INPUTCMD_UI_BACK_PRESS" VidPid="0x346e0005" InputType="Button" Index="20" />
-    <Value Version="1" Key="INPUTCMD_UI_BACK_RELEASE" VidPid="0x346e0005" InputType="Button" Index="20" />
-    <Value Version="1" Key="INPUTCMD_UI_BACK_REPEAT" VidPid="0x346e0005" InputType="Button" Index="20" />
-
-    <!-- UI Start (B) -->
-    <Value Version="1" Key="INPUTCMD_UI_START_PRESS" VidPid="0x346e0005" InputType="Button" Index="1" />
-    <Value Version="1" Key="INPUTCMD_UI_START_RELEASE" VidPid="0x346e0005" InputType="Button" Index="1" />
-    <Value Version="1" Key="INPUTCMD_UI_START_REPEAT" VidPid="0x346e0005" InputType="Button" Index="1" />
 
   </Context>
 
