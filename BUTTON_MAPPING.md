@@ -1,6 +1,6 @@
 # Moza R3 + ES SRP Lite — Button Reference
 
-All indices are **0-based** (as used in the config files).
+All indices are **0-based** (as used in the config files). Physical button labels on the wheel are 1-based, so physical button N = config index N-1.
 
 | 1-indexed | 0-indexed | Physical Label | FH5 Mapping |
 |-----------|-----------|----------------|-------------|
@@ -35,14 +35,13 @@ All indices are **0-based** (as used in the config files).
 | 29 | 28 | Unknown      | — |
 | 30 | 29 | Unknown      | — |
 | 31 | 30 | Unknown      | — |
-| 32 | 31 | Unknown      | — |
-| 33 | 32 | P            | — |
-| 34 | 33 | BOX          | Quick Chat / UI Start |
-| 35 | 34 | PL           | Rewind / Mulligan |
-| 36 | 35 | R            | — |
-| 37 | 36 | START        | Open Map |
-| 38 | 37 | S2           | Pause Game |
-| 39 | 38 | MENU         | — |
+| 32 | 31 | P            | — |
+| 33 | 32 | BOX          | — |
+| 34 | 33 | PL           | Quick Chat / UI Start |
+| 35 | 34 | R            | Rewind / Mulligan |
+| 36 | 35 | START        | — |
+| 37 | 36 | S2           | Open Map |
+| 38 | 37 | MENU         | Pause Game |
 
 ## Axes
 
