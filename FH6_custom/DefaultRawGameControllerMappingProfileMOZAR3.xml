@@ -1,0 +1,403 @@
+<Profiles>
+<RawGameControllerInputMappingProfile Version="1" Id="C075815C-6690-1564-65D1-1D35C0C66592" UserFacingName="IDS_DefaultWheelProfile_Moza_R3_Name" IsDefaultProfile="1" PrimaryDeviceVidPid="0x346e0005" FFBDeviceVidPid="0x346e0005" FFBMotorIndex="0">
+
+  <!-- Race -->
+  <Context Version="1" Context="INPUTCONTEXT_RACING">
+
+    <!-- Key = INPUTCMD_GAS, Moza R3 Axis 2 -->
+    <Value Version="1" Key="INPUTCMD_GAS" VidPid="0x346e0005" InputType="Axis" Index="2" InvertAxis="true" InnerDeadzone="0.0" OuterDeadzone="1.0" />
+    <!-- Key = INPUTCMD_BRAKE, Moza R3 Axis 5 -->
+    <Value Version="1" Key="INPUTCMD_BRAKE" VidPid="0x346e0005" InputType="Axis" Index="5" InvertAxis="true" InnerDeadzone="0.0" OuterDeadzone="1.0" />
+    <!-- Key = INPUTCMD_CLUTCH, Moza R3 Axis 6 -->
+    <Value Version="1" Key="INPUTCMD_CLUTCH" VidPid="0x346e0005" InputType="Axis" Index="6" InvertAxis="true" InnerDeadzone="0.0" OuterDeadzone="1.0" />
+
+    <!-- Key = INPUTCMD_STEERING, Moza R3 Axis 0 -->
+    <Value Version="1" Key="INPUTCMD_STEERING" VidPid="0x346e0005" InputType="Axis" Index="0" InvertAxis="false" DeadzonesAroundCenter="true" InnerDeadzone="0.00" OuterDeadzone="1.00" />
+
+    <!-- Key = INPUTCMD_SHIFTUP, Moza R3 Button 13 (Right Paddle) -->
+    <Value Version="1" Key="INPUTCMD_SHIFTUP" VidPid="0x346e0005" InputType="Button" Index="13" />
+    <!-- Key = INPUTCMD_SHIFTDOWN, Moza R3 Button 12 (Left Paddle) -->
+    <Value Version="1" Key="INPUTCMD_SHIFTDOWN" VidPid="0x346e0005" InputType="Button" Index="12" />
+
+    <!-- Key = INPUTCMD_AUTODRIVE_CINEMATIC_CAMERA, Moza R3 Button 12 (Left Paddle) -->
+    <Value Version="1" Key="INPUTCMD_AUTODRIVE_CINEMATIC_CAMERA" VidPid="0x346e0005" InputType="Button" Index="12" />
+
+    <!-- Key = INPUTCMD_MULLIGAN, Moza R3 Button 34 -->
+    <Value Version="1" Key="INPUTCMD_MULLIGAN" VidPid="0x346e0005" InputType="Button" Index="34" />
+    <!-- Key = INPUTCMD_HANDBRAKE, Moza R3 Button 1 -->
+    <Value Version="1" Key="INPUTCMD_HANDBRAKE" VidPid="0x346e0005" InputType="Button" Index="1" />
+    <!-- Key = INPUTCMD_PAUSE_GAME, Moza R3 Button 37 -->
+    <Value Version="1" Key="INPUTCMD_PAUSE_GAME" VidPid="0x346e0005" InputType="Button" Index="37" />
+    <!-- Key = INPUTCMD_HORN, Moza R3 Button 0 -->
+    <Value Version="1" Key="INPUTCMD_HORN" VidPid="0x346e0005" InputType="Button" Index="0" />
+    <!-- Key = INPUTCMD_ACTIVATE, Moza R3 Button 7 -->
+    <Value Version="1" Key="INPUTCMD_ACTIVATE" VidPid="0x346e0005" InputType="Button" Index="7" />
+    <!-- Key = INPUTCMD_SWITCH_CAMERA, Moza R3 Button 21 -->
+    <Value Version="1" Key="INPUTCMD_SWITCH_CAMERA" VidPid="0x346e0005" InputType="Button" Index="21" />
+    <!-- Key = INPUTCMD_RADIO_RIGHT, Moza R3 Button 24 -->
+    <Value Version="1" Key="INPUTCMD_RADIO_RIGHT" VidPid="0x346e0005" InputType="Button" Index="24" />
+    <!-- Key = INPUTCMD_ANNA_ACTIVATE, Moza R3 Button 20 -->
+    <Value Version="1" Key="INPUTCMD_ANNA_ACTIVATE" VidPid="0x346e0005" InputType="Button" Index="20" />
+
+    <!-- Key = INPUTCMD_TELEMETRY_TOGGLE, Moza R3 DPad Down -->
+    <Value Version="1" Key="INPUTCMD_TELEMETRY_TOGGLE" VidPid="0x346e0005" InputType="Switch" Index="0" SwitchPosition="Down" />
+    <!-- Key = INPUTCMD_TELEMETRY_PREV, Moza R3 DPad Left -->
+    <Value Version="1" Key="INPUTCMD_TELEMETRY_PREV" VidPid="0x346e0005" InputType="Switch" Index="0" SwitchPosition="Left" />
+    <!-- Key = INPUTCMD_TELEMETRY_NEXT, Moza R3 DPad Right -->
+    <Value Version="1" Key="INPUTCMD_TELEMETRY_NEXT" VidPid="0x346e0005" InputType="Switch" Index="0" SwitchPosition="Right" />
+
+  </Context>
+
+
+  <!-- UI -->
+  <Context Version="1" Context="INPUTCONTEXT_UI">
+
+    <!-- Key = INPUTCMD_UI_DPAD_UP_PRESS, Moza R3 DPad Up -->
+    <Value Version="1" Key="INPUTCMD_UI_DPAD_UP_PRESS" VidPid="0x346e0005" InputType="Switch" Index="0" SwitchPosition="Up" />
+    <!-- Key = INPUTCMD_UI_DPAD_DOWN_PRESS, Moza R3 DPad Down -->
+    <Value Version="1" Key="INPUTCMD_UI_DPAD_DOWN_PRESS" VidPid="0x346e0005" InputType="Switch" Index="0" SwitchPosition="Down" />
+    <!-- Key = INPUTCMD_UI_DPAD_LEFT_PRESS, Moza R3 DPad Left -->
+    <Value Version="1" Key="INPUTCMD_UI_DPAD_LEFT_PRESS" VidPid="0x346e0005" InputType="Switch" Index="0" SwitchPosition="Left" />
+    <!-- Key = INPUTCMD_UI_DPAD_RIGHT_PRESS, Moza R3 DPad Right -->
+    <Value Version="1" Key="INPUTCMD_UI_DPAD_RIGHT_PRESS" VidPid="0x346e0005" InputType="Switch" Index="0" SwitchPosition="Right" />
+
+    <!-- Key = INPUTCMD_UI_OK_PRESS, Moza R3 Button 0 -->
+    <Value Version="1" Key="INPUTCMD_UI_OK_PRESS" VidPid="0x346e0005" InputType="Button" Index="0" />
+    <!-- Key = INPUTCMD_UI_OK_RELEASE, Moza R3 Button 0 -->
+    <Value Version="1" Key="INPUTCMD_UI_OK_RELEASE" VidPid="0x346e0005" InputType="Button" Index="0" />
+    <!-- Key = INPUTCMD_UI_OK_REPEAT, Moza R3 Button 0 -->
+    <Value Version="1" Key="INPUTCMD_UI_OK_REPEAT" VidPid="0x346e0005" InputType="Button" Index="0" />
+    <!-- Key = INPUTCMD_UI_OK_WHILEDOWN, Moza R3 Button 0 -->
+    <Value Version="1" Key="INPUTCMD_UI_OK_WHILEDOWN" VidPid="0x346e0005" InputType="Button" Index="0" />
+
+    <!-- Key = INPUTCMD_UI_CANCEL_PRESS, Moza R3 Button 1 -->
+    <Value Version="1" Key="INPUTCMD_UI_CANCEL_PRESS" VidPid="0x346e0005" InputType="Button" Index="1" />
+    <!-- Key = INPUTCMD_UI_CANCEL_RELEASE, Moza R3 Button 1 -->
+    <Value Version="1" Key="INPUTCMD_UI_CANCEL_RELEASE" VidPid="0x346e0005" InputType="Button" Index="1" />
+    <!-- Key = INPUTCMD_UI_CANCEL_REPEAT, Moza R3 Button 1 -->
+    <Value Version="1" Key="INPUTCMD_UI_CANCEL_REPEAT" VidPid="0x346e0005" InputType="Button" Index="1" />
+    <!-- Key = INPUTCMD_UI_CANCEL_WHILEDOWN, Moza R3 Button 1 -->
+    <Value Version="1" Key="INPUTCMD_UI_CANCEL_WHILEDOWN" VidPid="0x346e0005" InputType="Button" Index="1" />
+
+    <!-- Key = INPUTCMD_UI_START_PRESS, Moza R3 Button 33 -->
+    <Value Version="1" Key="INPUTCMD_UI_START_PRESS" VidPid="0x346e0005" InputType="Button" Index="33" />
+    <!-- Key = INPUTCMD_UI_START_RELEASE, Moza R3 Button 33 -->
+    <Value Version="1" Key="INPUTCMD_UI_START_RELEASE" VidPid="0x346e0005" InputType="Button" Index="33" />
+    <!-- Key = INPUTCMD_UI_START_REPEAT, Moza R3 Button 33 -->
+    <Value Version="1" Key="INPUTCMD_UI_START_REPEAT" VidPid="0x346e0005" InputType="Button" Index="33" />
+
+    <!-- Key = INPUTCMD_UI_BACK_PRESS, Moza R3 Button 20 -->
+    <Value Version="1" Key="INPUTCMD_UI_BACK_PRESS" VidPid="0x346e0005" InputType="Button" Index="20" />
+    <!-- Key = INPUTCMD_UI_BACK_RELEASE, Moza R3 Button 20 -->
+    <Value Version="1" Key="INPUTCMD_UI_BACK_RELEASE" VidPid="0x346e0005" InputType="Button" Index="20" />
+    <!-- Key = INPUTCMD_UI_BACK_REPEAT, Moza R3 Button 20 -->
+    <Value Version="1" Key="INPUTCMD_UI_BACK_REPEAT" VidPid="0x346e0005" InputType="Button" Index="20" />
+
+    <!-- Key = INPUTCMD_UI_UP_PRESS, Moza R3 Button 4 -->
+    <Value Version="1" Key="INPUTCMD_UI_UP_PRESS" VidPid="0x346e0005" InputType="Button" Index="4"/>
+    <!-- Key = INPUTCMD_UI_UP_RELEASE, Moza R3 Button 4 -->
+    <Value Version="1" Key="INPUTCMD_UI_UP_RELEASE" VidPid="0x346e0005" InputType="Button" Index="4"/>
+    <!-- Key = INPUTCMD_UI_UP_REPEAT, Moza R3 Button 4 -->
+    <Value Version="1" Key="INPUTCMD_UI_UP_REPEAT" VidPid="0x346e0005" InputType="Button" Index="4"/>
+
+    <!-- Key = INPUTCMD_UI_DOWN_PRESS, Moza R3 Button 6 -->
+    <Value Version="1" Key="INPUTCMD_UI_DOWN_PRESS" VidPid="0x346e0005" InputType="Button" Index="6"/>
+    <!-- Key = INPUTCMD_UI_DOWN_RELEASE, Moza R3 Button 6 -->
+    <Value Version="1" Key="INPUTCMD_UI_DOWN_RELEASE" VidPid="0x346e0005" InputType="Button" Index="6"/>
+    <!-- Key = INPUTCMD_UI_DOWN_REPEAT, Moza R3 Button 6 -->
+    <Value Version="1" Key="INPUTCMD_UI_DOWN_REPEAT" VidPid="0x346e0005" InputType="Button" Index="6"/>
+
+    <!-- Key = INPUTCMD_UI_LEFT_PRESS, Moza R3 Button 7 -->
+    <Value Version="1" Key="INPUTCMD_UI_LEFT_PRESS" VidPid="0x346e0005" InputType="Button" Index="7"/>
+    <!-- Key = INPUTCMD_UI_LEFT_RELEASE, Moza R3 Button 7 -->
+    <Value Version="1" Key="INPUTCMD_UI_LEFT_RELEASE" VidPid="0x346e0005" InputType="Button" Index="7"/>
+    <!-- Key = INPUTCMD_UI_LEFT_REPEAT, Moza R3 Button 7 -->
+    <Value Version="1" Key="INPUTCMD_UI_LEFT_REPEAT" VidPid="0x346e0005" InputType="Button" Index="7"/>
+
+    <!-- Key = INPUTCMD_UI_RIGHT_PRESS, Moza R3 Button 5 -->
+    <Value Version="1" Key="INPUTCMD_UI_RIGHT_PRESS" VidPid="0x346e0005" InputType="Button" Index="5"/>
+    <!-- Key = INPUTCMD_UI_RIGHT_RELEASE, Moza R3 Button 5 -->
+    <Value Version="1" Key="INPUTCMD_UI_RIGHT_RELEASE" VidPid="0x346e0005" InputType="Button" Index="5"/>
+    <!-- Key = INPUTCMD_UI_RIGHT_REPEAT, Moza R3 Button 5 -->
+    <Value Version="1" Key="INPUTCMD_UI_RIGHT_REPEAT" VidPid="0x346e0005" InputType="Button" Index="5"/>
+
+    <!-- Key = INPUTCMD_UI_RTRIGGER_PRESS, Moza R3 Axis 2 -->
+    <Value Version="1" Key="INPUTCMD_UI_RTRIGGER_PRESS" VidPid="0x346e0005" InputType="Axis" Index="2" InvertAxis="false" InnerDeadzone="0.05" OuterDeadzone="0.95" />
+    <!-- Key = INPUTCMD_UI_RTRIGGER_RELEASE, Moza R3 Axis 2 -->
+    <Value Version="1" Key="INPUTCMD_UI_RTRIGGER_RELEASE" VidPid="0x346e0005" InputType="Axis" Index="2" InvertAxis="false" InnerDeadzone="0.05" OuterDeadzone="0.95" />
+    <!-- Key = INPUTCMD_UI_RTRIGGER_REPEAT, Moza R3 Axis 2 -->
+    <Value Version="1" Key="INPUTCMD_UI_RTRIGGER_REPEAT" VidPid="0x346e0005" InputType="Axis" Index="2" InvertAxis="false" InnerDeadzone="0.05" OuterDeadzone="0.95" />
+
+    <!-- Key = INPUTCMD_UI_LBUMPER_PRESS, Moza R3 Button 12 (Left Paddle) -->
+    <Value Version="1" Key="INPUTCMD_UI_LBUMPER_PRESS" VidPid="0x346e0005" InputType="Button" Index="12" />
+    <!-- Key = INPUTCMD_UI_LBUMPER_RELEASE, Moza R3 Button 12 (Left Paddle) -->
+    <Value Version="1" Key="INPUTCMD_UI_LBUMPER_RELEASE" VidPid="0x346e0005" InputType="Button" Index="12" />
+    <!-- Key = INPUTCMD_UI_LBUMPER_REPEAT, Moza R3 Button 12 (Left Paddle) -->
+    <Value Version="1" Key="INPUTCMD_UI_LBUMPER_REPEAT" VidPid="0x346e0005" InputType="Button" Index="12" />
+    <!-- Key = INPUTCMD_UI_RBUMPER_PRESS, Moza R3 Button 13 (Right Paddle) -->
+    <Value Version="1" Key="INPUTCMD_UI_RBUMPER_PRESS" VidPid="0x346e0005" InputType="Button" Index="13" />
+    <!-- Key = INPUTCMD_UI_RBUMPER_RELEASE, Moza R3 Button 13 (Right Paddle) -->
+    <Value Version="1" Key="INPUTCMD_UI_RBUMPER_RELEASE" VidPid="0x346e0005" InputType="Button" Index="13" />
+    <!-- Key = INPUTCMD_UI_RBUMPER_REPEAT, Moza R3 Button 13 (Right Paddle) -->
+    <Value Version="1" Key="INPUTCMD_UI_RBUMPER_REPEAT" VidPid="0x346e0005" InputType="Button" Index="13" />
+
+    <Value Version="1" Key="INPUTCMD_PREV_CATEGORY" VidPid="0x346e0005" InputType="Button" Index="12" />
+    <Value Version="1" Key="INPUTCMD_NEXT_CATEGORY" VidPid="0x346e0005" InputType="Button" Index="13" />
+
+    <!-- Key = INPUTCMD_UI_BRICKCHALLENGES_UP, Moza R3 DPad Up -->
+    <Value Version="1" Key="INPUTCMD_UI_BRICKCHALLENGES_UP" VidPid="0x346e0005" InputType="Switch" Index="0" SwitchPosition="Up" />
+    <!-- Key = INPUTCMD_UI_BRICKCHALLENGES_LEFT, Moza R3 DPad Left -->
+    <Value Version="1" Key="INPUTCMD_UI_BRICKCHALLENGES_LEFT" VidPid="0x346e0005" InputType="Switch" Index="0" SwitchPosition="Left" />
+    <!-- Key = INPUTCMD_UI_BRICKCHALLENGES_DOWN, Moza R3 DPad Down -->
+    <Value Version="1" Key="INPUTCMD_UI_BRICKCHALLENGES_DOWN" VidPid="0x346e0005" InputType="Switch" Index="0" SwitchPosition="Down" />
+    <!-- Key = INPUTCMD_UI_BRICKCHALLENGES_RIGHT, Moza R3 DPad Right -->
+    <Value Version="1" Key="INPUTCMD_UI_BRICKCHALLENGES_RIGHT" VidPid="0x346e0005" InputType="Switch" Index="0" SwitchPosition="Right" />
+
+    <!-- Key = INPUTCMD_MULLIGAN, Moza R3 Button 34 -->
+    <Value Version="1" Key="INPUTCMD_MULLIGAN" VidPid="0x346e0005" InputType="Button" Index="34" />
+
+    <Value Version="1" Key="INPUTCMD_UI_MAP_MOVE_LEFTRIGHT">
+      <!--Key = INPUTCMD_UI_MAP_MOVE_LEFTRIGHT, Moza R3 Button 7 -->
+      <InputCmdLow VidPid="0x346e0005" InputType="Button" Index="7" />
+      <!--Key = INPUTCMD_UI_MAP_MOVE_LEFTRIGHT, Moza R3 Button 5 -->
+      <InputCmdHigh VidPid="0x346e0005" InputType="Button" Index="5" />
+    </Value>
+    <Value Version="1" Key="INPUTCMD_UI_MAP_MOVE_UPDOWN">
+      <!--Key = INPUTCMD_UI_MAP_MOVE_UPDOWN, Moza R3 Button 6 -->
+      <InputCmdLow VidPid="0x346e0005" InputType="Button" Index="6" />
+      <!--Key = INPUTCMD_UI_MAP_MOVE_UPDOWN, Moza R3 Button 4 -->
+      <InputCmdHigh VidPid="0x346e0005" InputType="Button" Index="4" />
+    </Value>
+
+    <!-- Key = INPUTCMD_UI_REPLAY_SPEED_RIGHT, Moza R3 Axis 2 -->
+    <Value Version="1" Key="INPUTCMD_UI_REPLAY_SPEED_RIGHT" VidPid="0x346e0005" InputType="Axis" Index="2" InvertAxis="true" InnerDeadzone="0.0" OuterDeadzone="1.0" />
+    <!-- Key = INPUTCMD_UI_REPLAY_SPEED_LEFT, Moza R3 Axis 5 -->
+    <Value Version="1" Key="INPUTCMD_UI_REPLAY_SPEED_LEFT" VidPid="0x346e0005" InputType="Axis" Index="5" InvertAxis="true" InnerDeadzone="0.0" OuterDeadzone="1.0" />
+
+    <!-- Key = INPUTCMD_UI_X_PRESS, Moza R3 Button 2 -->
+    <Value Version="1" Key="INPUTCMD_UI_X_PRESS" VidPid="0x346e0005" InputType="Button" Index="2" />
+    <!-- Key = INPUTCMD_UI_X_RELEASE, Moza R3 Button 2 -->
+    <Value Version="1" Key="INPUTCMD_UI_X_RELEASE" VidPid="0x346e0005" InputType="Button" Index="2" />
+    <!-- Key = INPUTCMD_UI_X_REPEAT, Moza R3 Button 2 -->
+    <Value Version="1" Key="INPUTCMD_UI_X_REPEAT" VidPid="0x346e0005" InputType="Button" Index="2" />
+
+    <!-- Key = INPUTCMD_UI_Y_PRESS, Moza R3 Button 3 -->
+    <Value Version="1" Key="INPUTCMD_UI_Y_PRESS" VidPid="0x346e0005" InputType="Button" Index="3" />
+    <!-- Key = INPUTCMD_UI_Y_RELEASE, Moza R3 Button 3 -->
+    <Value Version="1" Key="INPUTCMD_UI_Y_RELEASE" VidPid="0x346e0005" InputType="Button" Index="3" />
+    <!-- Key = INPUTCMD_UI_Y_REPEAT, Moza R3 Button 3 -->
+    <Value Version="1" Key="INPUTCMD_UI_Y_REPEAT" VidPid="0x346e0005" InputType="Button" Index="3" />
+
+  </Context>
+
+
+  <!-- RACING_UI -->
+  <Context Version="1" Context="INPUTCONTEXT_RACING_UI">
+
+    <!-- DPad -->
+    <!-- Key = INPUTCMD_ANNA_ACTIVATE, Moza R3 Button 20 -->
+    <Value Version="1" Key="INPUTCMD_ANNA_ACTIVATE" VidPid="0x346e0005" InputType="Button" Index="20" />
+    <!-- Key = INPUTCMD_PHOTO_MODE_TOGGLE, Moza R3 Button 23 -->
+    <Value Version="1" Key="INPUTCMD_PHOTO_MODE_TOGGLE" VidPid="0x346e0005" InputType="Button" Index="23" />
+    <!-- Key = INPUTCMD_QUICKCHAT_ACTIVATE, Moza R3 Button 33 -->
+    <Value Version="1" Key="INPUTCMD_QUICKCHAT_ACTIVATE" VidPid="0x346e0005" InputType="Button" Index="33" />
+    <!-- Key = INPUTCMD_RADIO_RIGHT, Moza R3 Button 24 -->
+    <Value Version="1" Key="INPUTCMD_RADIO_RIGHT" VidPid="0x346e0005" InputType="Button" Index="24" />
+
+  </Context>
+
+
+  <!-- ANNA -->
+  <Context Version="1" Context="INPUTCONTEXT_ANNA">
+
+    <!-- Key = INPUTCMD_ANNA_ITEM_1, Moza R3 Button 4 -->
+    <Value Version="1" Key="INPUTCMD_ANNA_ITEM_1" VidPid="0x346e0005" InputType="Button" Index="4" />
+    <!-- Key = INPUTCMD_ANNA_ITEM_2, Moza R3 Button 7 -->
+    <Value Version="1" Key="INPUTCMD_ANNA_ITEM_2" VidPid="0x346e0005" InputType="Button" Index="7" />
+    <!-- Key = INPUTCMD_ANNA_ITEM_3, Moza R3 Button 5 -->
+    <Value Version="1" Key="INPUTCMD_ANNA_ITEM_3" VidPid="0x346e0005" InputType="Button" Index="5" />
+    <!-- Key = INPUTCMD_ANNA_ITEM_4, Moza R3 Button 6 -->
+    <Value Version="1" Key="INPUTCMD_ANNA_ITEM_4" VidPid="0x346e0005" InputType="Button" Index="6" />
+
+  </Context>
+
+
+  <!-- Drone -->
+  <Context Version="1" Context="INPUTCONTEXT_COPTER">
+
+    <!-- Key = INPUTCMD_PHOTO_MODE_TOGGLE, Moza R3 Button 23 -->
+    <Value Version="1" Key="INPUTCMD_PHOTO_MODE_TOGGLE" VidPid="0x346e0005" InputType="Button" Index="23" />
+    <!-- Key = INPUTCMD_QUICKCHAT_ACTIVATE, Moza R3 Button 33 -->
+    <Value Version="1" Key="INPUTCMD_QUICKCHAT_ACTIVATE" VidPid="0x346e0005" InputType="Button" Index="33" />
+    <!-- Key = INPUTCMD_RADIO_RIGHT, Moza R3 Button 24 -->
+    <Value Version="1" Key="INPUTCMD_RADIO_RIGHT" VidPid="0x346e0005" InputType="Button" Index="24" />
+
+  </Context>
+
+
+  <!-- Race (Restricted controls) -->
+  <Context Version="1" Context="INPUTCONTEXT_RACING_CAMERA_ONLY">
+
+    <!-- Key = INPUTCMD_PAUSE_GAME, Moza R3 Button 37 -->
+    <Value Version="1" Key="INPUTCMD_PAUSE_GAME" VidPid="0x346e0005" InputType="Button" Index="37" />
+    <!-- Key = INPUTCMD_SWITCH_CAMERA, Moza R3 Button 21 -->
+    <Value Version="1" Key="INPUTCMD_SWITCH_CAMERA" VidPid="0x346e0005" InputType="Button" Index="21" />
+    <!-- Key = INPUTCMD_HORN, Moza R3 Button 0 -->
+    <Value Version="1" Key="INPUTCMD_HORN" VidPid="0x346e0005" InputType="Button" Index="0" />
+    <!-- Key = INPUTCMD_ACTIVATE, Moza R3 Button 7 -->
+    <Value Version="1" Key="INPUTCMD_ACTIVATE" VidPid="0x346e0005" InputType="Button" Index="7" />
+
+    <!-- Key = INPUTCMD_ANNA_ACTIVATE, Moza R3 Button 20 -->
+    <Value Version="1" Key="INPUTCMD_ANNA_ACTIVATE" VidPid="0x346e0005" InputType="Button" Index="20" />
+    <!-- Key = INPUTCMD_TELEMETRY_TOGGLE, Moza R3 DPad Down -->
+    <Value Version="1" Key="INPUTCMD_TELEMETRY_TOGGLE" VidPid="0x346e0005" InputType="Switch" Index="0" SwitchPosition="Down" />
+    <!-- Key = INPUTCMD_TELEMETRY_PREV, Moza R3 DPad Left -->
+    <Value Version="1" Key="INPUTCMD_TELEMETRY_PREV" VidPid="0x346e0005" InputType="Switch" Index="0" SwitchPosition="Left" />
+    <!-- Key = INPUTCMD_TELEMETRY_NEXT, Moza R3 DPad Right -->
+    <Value Version="1" Key="INPUTCMD_TELEMETRY_NEXT" VidPid="0x346e0005" InputType="Switch" Index="0" SwitchPosition="Right" />
+
+  </Context>
+
+
+  <!-- Freecam  the ones unmapped are the same for opus profile-->
+  <Context Version="1" Context="INPUTCONTEXT_FREECAM">
+
+    <!-- <Mapping Command="INPUTCMD_MOVE_DOWN" Button="-1" ButtonHigh="-1" /> -->
+    <!-- <Mapping Command="INPUTCMD_MOVE_UP" Button="-1" ButtonHigh="-1" /> -->
+
+    <Value Version="1" Key="INPUTCMD_UI_MAP_MOVE_LEFTRIGHT">
+      <!--Key = INPUTCMD_UI_MAP_MOVE_LEFTRIGHT, Moza R3 Axis 5 -->
+      <InputCmdLow VidPid="0x346e0005" InputType="Axis" Index="5" InvertAxis="true" InnerDeadzone="0.05" OuterDeadzone="0.95" />
+      <!--Key = INPUTCMD_UI_MAP_MOVE_LEFTRIGHT, Moza R3 Axis 2 -->
+      <InputCmdHigh VidPid="0x346e0005" InputType="Axis" Index="2" InvertAxis="true" InnerDeadzone="0.05" OuterDeadzone="0.95" />
+    </Value>
+
+    <!-- <Mapping Command="INPUTCMD_MOVE_LEFTRIGHT" Button="-1" ButtonHigh="-1" /> -->
+    <!-- <Mapping Command="INPUTCMD_ROT_LEFTRIGHT" Button="-1" ButtonHigh="-1" /> -->
+    <!-- <Mapping Command="INPUTCMD_ROT_UPDOWN" Button="-1" ButtonHigh="-1" /> -->
+    <!-- <Mapping Command="INPUTCMD_FOV" Button="-1" ButtonHigh="-1" /> -->
+    <!-- <Mapping Command="INPUTCMD_ROLL" Button="-1" ButtonHigh="-1" /> -->
+
+  </Context>
+
+
+  <!-- Hide and Seek -->
+  <Context Version="1" Context="INPUTCONTEXT_HIDE_SEEK">
+
+    <Value Version="1" Key="INPUTCMD_HIDESEEK_PING_OR_CHASEBREAK" VidPid="0x346e0005" InputType="Button" Index="3"/>
+
+  </Context>
+
+
+  <!-- Eliminator -->
+  <Context Version="1" Context="INPUTCONTEXT_ELIMINATOR_UI">
+
+    <!-- Key = INPUTCMD_ELIMINATOR_UPGRADECHOICE_LEFT, Moza R3 DPad Left -->
+    <Value Version="1" Key="INPUTCMD_ELIMINATOR_UPGRADECHOICE_LEFT" VidPid="0x346e0005" InputType="Switch" Index="0" SwitchPosition="Left" />
+    <!-- Key = INPUTCMD_ELIMINATOR_UPGRADECHOICE_DOWN, Moza R3 DPad Down -->
+    <Value Version="1" Key="INPUTCMD_ELIMINATOR_UPGRADECHOICE_DOWN" VidPid="0x346e0005" InputType="Switch" Index="0" SwitchPosition="Down" />
+    <!-- Key = INPUTCMD_ELIMINATOR_UPGRADECHOICE_RIGHT, Moza R3 DPad Right -->
+    <Value Version="1" Key="INPUTCMD_ELIMINATOR_UPGRADECHOICE_RIGHT" VidPid="0x346e0005" InputType="Switch" Index="0" SwitchPosition="Right" />
+
+  </Context>
+
+
+  <!-- Car Meets -->
+  <Context Version="1" Context="INPUTCONTEXT_CAR_MEETS">
+
+    <!-- DPad -->
+    <!-- Key = INPUTCMD_QUICKCHAT_ACTIVATE, Moza R3 DPad Left -->
+    <Value Version="1" Key="INPUTCMD_QUICKCHAT_ACTIVATE" VidPid="0x346e0005" InputType="Switch" Index="0" SwitchPosition="Left" />
+    <!-- Key = INPUTCMD_CAR_MEETS_PHOTO, Moza R3 DPad Up -->
+    <Value Version="1" Key="INPUTCMD_CAR_MEETS_PHOTO" VidPid="0x346e0005" InputType="Switch" Index="0" SwitchPosition="Up" />
+    <!-- Key = INPUTCMD_CAR_MEETS_CINEMATIC_CAM, Moza R3 DPad Down -->
+    <Value Version="1" Key="INPUTCMD_CAR_MEETS_CINEMATIC_CAM" VidPid="0x346e0005" InputType="Switch" Index="0" SwitchPosition="Down" />
+
+  </Context>
+
+
+  <Context Version="1" Context="INPUTCONTEXT_PROP_PLACEMENT_UI">
+
+    <!-- PROP PLACEMENT CLONE PROP -->
+    <Value Version="1" Key="INPUTCMD_PP_CLONE_PROP" VidPid="0x346e0005" InputType="Button" Index="3" />
+
+    <!-- PROP PLACEMENT STAMP PROP -->
+    <Value Version="1" Key="INPUTCMD_PP_STAMP_PROP" VidPid="0x346e0005" InputType="Button" Index="3" />
+
+    <!-- PROP PLACEMENT DELETE PROP -->
+    <Value Version="1" Key="INPUTCMD_PP_DELETE_PROP" VidPid="0x346e0005" InputType="Button" Index="0" />
+
+    <!-- PROP PLACEMENT DELETE UGC PROP IN CAROUSEL -->
+    <Value Version="1" Key="INPUTCMD_PP_DELETE_UGCPROP_IN_CAROUSEL" VidPid="0x346e0005" InputType="Button" Index="0" />
+
+    <!-- PROP PLACEMENT PLACE/EDIT PROP -->
+    <Value Version="1" Key="INPUTCMD_PP_PLACE_EDIT_PROP" VidPid="0x346e0005" InputType="Button" Index="1" />
+
+    <!-- PROP PLACEMENT SAVE/EXIT PROP -->
+    <Value Version="1" Key="INPUTCMD_PP_SAVE_AND_EXIT" VidPid="0x346e0005" InputType="Button" Index="2" />
+
+    <!-- PROP PLACEMENT ROTATE PROP CCW on Placement Mode-->
+    <Value Version="1" Key="INPUTCMD_PP_TRANSFORM_LEFT" VidPid="0x346e0005" InputType="Switch" Index="0" SwitchPosition="Left" />
+
+    <!-- PROP PLACEMENT ROTATE PROP CW on Placement Mode-->
+    <Value Version="1" Key="INPUTCMD_PP_TRANSFORM_RIGHT" VidPid="0x346e0005" InputType="Switch" Index="0" SwitchPosition="Right" />
+
+    <!-- PROP PLACEMENT RAISE PROP on Placement Mode -->
+    <Value Version="1" Key="INPUTCMD_PP_TRANSFORM_UP" VidPid="0x346e0005" InputType="Switch" Index="0" SwitchPosition="Up" />
+
+    <!-- PROP PLACEMENT LOW PROP on Placement Mode -->
+    <Value Version="1" Key="INPUTCMD_PP_TRANSFORM_DOWN" VidPid="0x346e0005" InputType="Switch" Index="0" SwitchPosition="Down" />
+
+    <!-- PROP PLACEMENT roll left on left trigger -->
+    <Value Version="1" Key="INPUTCMD_PP_ROLL_LEFT" VidPid="0x346e0005" InputType="Button" Index="36" />
+
+    <!-- PROP PLACEMENT roll right on right trigger -->
+    <Value Version="1" Key="INPUTCMD_PP_ROLL_RIGHT" VidPid="0x346e0005" InputType="Button" Index="37" />
+
+    <!-- PROP PLACEMENT undo on left trigger -->
+    <Value Version="1" Key="INPUTCMD_PP_UNDO" VidPid="0x346e0005" InputType="Button" Index="36" />
+
+    <!-- PROP PLACEMENT redo on right trigger -->
+    <Value Version="1" Key="INPUTCMD_PP_REDO" VidPid="0x346e0005" InputType="Button" Index="37" />
+
+    <!-- PROP PLACEMENT reset position on left bumper -->
+    <Value Version="1" Key="INPUTCMD_PP_RESET_TRANSFORM" VidPid="0x346e0005" InputType="Button" Index="12" />
+
+    <!-- PROP PLACEMENT precision mode on right bumper -->
+    <Value Version="1" Key="INPUTCMD_PP_PRECISION_MODE" VidPid="0x346e0005" InputType="Button" Index="13" />
+
+    <!-- PROP PLACEMENT open library (tab) -->
+    <Value Version="1" Key="INPUTCMD_PP_OPEN_LIBRARY" VidPid="0x346e0005" InputType="Button" Index="21" />
+
+    <!-- PROP PLACEMENT open more options (back) -->
+    <Value Version="1" Key="INPUTCMD_PP_OPEN_MOREOPTIONS" VidPid="0x346e0005" InputType="Button" Index="36" />
+
+    <!-- PROP PLACEMENT open ProPrefab Selection popup (tab) -->
+    <Value Version="1" Key="INPUTCMD_PP_OPEN_PROPPREFAB_POPUP" VidPid="0x346e0005" InputType="Button" Index="21" />
+
+    <!-- PROP PLACEMENT open Search Popup for Community PropPrefab (back) -->
+    <Value Version="1" Key="INPUTCMD_PP_OPEN_PROPPREFAB_SEARCHPOPUP" VidPid="0x346e0005" InputType="Button" Index="36" />
+
+    <!-- PROP PLACEMENT selection mode -->
+    <Value Version="1" Key="INPUTCMD_PP_OPEN_SELECTIONMODE" VidPid="0x346e0005" InputType="Button" Index="12" />
+
+    <!-- PROP PLACEMENT creation mode -->
+    <Value Version="1" Key="INPUTCMD_PP_OPEN_CREATIONMODE" VidPid="0x346e0005" InputType="Button" Index="12" />
+
+    <!-- PROP PLACEMENT sphere selection -->
+    <Value Version="1" Key="INPUTCMD_PP_SPHERE_SELECTION" VidPid="0x346e0005" InputType="Button" Index="1" />
+
+    <!-- PROP PLACEMENT add prop to selection -->
+    <Value Version="1" Key="INPUTCMD_PP_ADD_TO_SELECTION" VidPid="0x346e0005" InputType="Button" Index="1" />
+
+    <!-- PROP PLACEMENT remove prop from selection -->
+    <Value Version="1" Key="INPUTCMD_PP_REMOVE_FROM_SELECTION" VidPid="0x346e0005" InputType="Button" Index="0" />
+
+    <!-- PROP PLACEMENT save selected props -->
+    <Value Version="1" Key="INPUTCMD_PP_SAVE_SELECTED_PROPS" VidPid="0x346e0005" InputType="Button" Index="3" />
+
+  </Context>
+
+
+</RawGameControllerInputMappingProfile>
+</Profiles>
