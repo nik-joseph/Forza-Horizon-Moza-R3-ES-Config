@@ -148,10 +148,10 @@
     <Value Version="1" Key="INPUTCMD_UI_BACK_RELEASE" VidPid="0x346e0005" InputType="Button" Index="20" />
     <Value Version="1" Key="INPUTCMD_UI_BACK_REPEAT" VidPid="0x346e0005" InputType="Button" Index="20" />
 
-    <!-- UI Start (B) -->
-    <Value Version="1" Key="INPUTCMD_UI_START_PRESS" VidPid="0x346e0005" InputType="Button" Index="1" />
-    <Value Version="1" Key="INPUTCMD_UI_START_RELEASE" VidPid="0x346e0005" InputType="Button" Index="1" />
-    <Value Version="1" Key="INPUTCMD_UI_START_REPEAT" VidPid="0x346e0005" InputType="Button" Index="1" />
+    <!-- UI Start (Button 33) -->
+    <Value Version="1" Key="INPUTCMD_UI_START_PRESS" VidPid="0x346e0005" InputType="Button" Index="33" />
+    <Value Version="1" Key="INPUTCMD_UI_START_RELEASE" VidPid="0x346e0005" InputType="Button" Index="33" />
+    <Value Version="1" Key="INPUTCMD_UI_START_REPEAT" VidPid="0x346e0005" InputType="Button" Index="33" />
 
   </Context>
 

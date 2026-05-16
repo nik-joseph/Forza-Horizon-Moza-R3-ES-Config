@@ -27,26 +27,26 @@ Custom input mapping profile for **Forza Horizon 5** using the **Moza R3** wheel
 
 > Button indices are 0-based. A = 0, B = 1, X = 2, Y = 3.
 
-| Button | Index | Mapped Action |
-|--------|-------|---------------|
+| Label | Index | Mapped Action |
+|-------|-------|---------------|
 | A | 0 | Horn / UI Confirm |
-| B | 1 | Handbrake / UI Cancel / UI Start |
+| B | 1 | Handbrake / UI Cancel |
 | X | 2 | UI X |
 | Y | 3 | UI Y |
-| - | 4 | Look Forward / UI Up |
-| - | 5 | Look Right / UI Right |
-| - | 6 | Look Back / UI Down |
-| - | 7 | Look Left / UI Left / Activate |
-| - | 12 | Shift Down / UI LBumper |
-| - | 13 | Shift Up / UI RBumper |
-| - | 19 | Convertible Trigger |
-| - | 20 | ANNA Activate / UI Back |
-| - | 21 | Switch Camera |
-| - | 24 | Radio Next |
-| - | 33 | Quick Chat |
-| - | 34 | Rewind / Mulligan |
-| - | 36 | Open Map |
-| - | 37 | Pause Game |
+| DPad Up | 4 | Look Forward / UI Up |
+| DPad Right | 5 | Look Right / UI Right |
+| DPad Down | 6 | Look Back / UI Down |
+| DPad Left | 7 | Look Left / UI Left / Activate |
+| Left Paddle | 12 | Shift Down / UI LBumper |
+| Right Paddle | 13 | Shift Up / UI RBumper |
+| WIP | 19 | Convertible Trigger |
+| FL | 20 | ANNA Activate / UI Back |
+| CAM | 21 | Switch Camera |
+| HOME | 24 | Radio Next |
+| BOX | 33 | Quick Chat / UI Start |
+| PL | 34 | Rewind / Mulligan |
+| START | 36 | Open Map |
+| S2 | 37 | Pause Game |
 
 ### D-Pad (Switch 0)
 
