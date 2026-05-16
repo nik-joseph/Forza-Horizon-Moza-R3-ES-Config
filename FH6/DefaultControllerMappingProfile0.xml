@@ -1,0 +1,19 @@
+<Profiles>
+  <ControllerProfile Id="c5213f1a-ca1e-4f84-a5f4-477dacca1062" UserFacingName="DefaultControllerProfile" IsDefaultProfile="1" DeviceType="0" Version="3">
+    <Layout/>
+    <Context Version="3" Context="INPUTCONTEXT_RACING">
+      <Value Key="INPUTCMD_PAUSE_GAME" Button="GamepadWheelInputStartButton" ButtonHigh="GamepadWheelInputNone" Modifier1="-1" Modifier2="-1" NegModifier1="-1" NegModifier2="-1"/>
+    </Context>
+    <Context Version="3" Context="INPUTCONTEXT_UI">
+      <Value Key="INPUTCMD_PREV_CATEGORY" Button="GamepadWheelInputLeftShoulderButton" ButtonHigh="GamepadWheelInputNone" Modifier1="-1" Modifier2="-1" NegModifier1="-1" NegModifier2="-1"/>
+      <Value Key="INPUTCMD_NEXT_CATEGORY" Button="GamepadWheelInputRightShoulderButton" ButtonHigh="GamepadWheelInputNone" Modifier1="-1" Modifier2="-1" NegModifier1="-1" NegModifier2="-1"/>
+    </Context>
+    <Context Version="3" Context="INPUTCONTEXT_RACING_UI"/>
+    <Context Version="3" Context="INPUTCONTEXT_TELEMETRY_UI"/>
+    <Context Version="3" Context="INPUTCONTEXT_RACING_CAMERA_ONLY"/>
+    <Context Version="3" Context="INPUTCONTEXT_COPTER"/>
+    <Context Version="3" Context="INPUTCONTEXT_ANNA"/>
+    <Context Version="3" Context="INPUTCONTEXT_HIDE_SEEK"/>
+    <Context Version="3" Context="INPUTCONTEXT_CAR_MEETS"/>
+  </ControllerProfile>
+</Profiles>
